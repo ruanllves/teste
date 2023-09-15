@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,500;0,600;0,700;1,100&family=PT+Serif:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    overflow-x:hidden ;
+}
+
+header{
+    height: 12vh;
+    background-color: black;
+}
+
+nav{
+    height: 12vh;
+    width: 100%;
+    display: flex;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;   
+}
+
+#logo1{
+    background: -webkit-linear-gradient(50deg, #1426b3, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    gap: 5px;
+}
+
+.pesquisa1{
+    height: 5vh;
+    max-width: 30vw;
+    min-width: none;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: rgb(69, 69, 69);
+}
+
+#btn-pesquisa{
+    border-radius: 200px;
+    height: 5vh;
+    width: 3vw;
+    border: 1px solid black;
+    background-color: rgb(69, 69, 69);
+}
+
+#nav-list{
+    width: 39vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cabeçalho{
+    display: flex;
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #0094d3;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul:hover a{
+    color: #4B5A5F;
+}
+
+ul:hover a:hover{
+    color: #72C444;
+    box-shadow: 0.2px 0 0 currentColor;
+    
+}
+
+#a{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    background-image: url(bg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.centro-main{
+    width: 50vw;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#frase{
+    font-size: clamp(2em, 4em + 4vw, 3em);  
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#subfrase{
+    font-size: 22px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    
+}
+
+#btn-main{
+margin-top: 15px;
+    background-color: none;
+    color: black;
+    width: 200px;
+    height: 70px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25) ;
+    border-radius: 20px;
+    border: 1px solid white;
+    transition: all 1.0s ease;
+    font-size: xx-large;
+    
+}
+
+#btn-main:hover{
+    background-color: blue;
+    color: black;
+    cursor: pointer;
+    transform: scale(1.2);
+    border-color: blue;
+    box-shadow: 0, 0, 10px, 15px rgb(0, 0, 0);
+}
+
+
+
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #0094d3;
+}
+
+
+.b{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}   
+
+#c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-inner, .img-c{
+   height: 60vh;
+   width: 40vw;
+}
+
+
+
+
+#d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table{
+    width: 50vw;
+}
+
+.btn.btn-primary{
+    background-color: #0094d3;
+    border-color: #0094d3;
+}
+
+#e{
+    display: flex;
+    justify-content;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e5eff6;
+    height: 35vh;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn.btn-info{
+    margin-top: 10px;
+    background-color: #9bcadd;
+}
+
+#f{ display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+ 
+}
+
+footer{
+    margin-top: 20px;
+    height: 12vh;
+    background-color: #acd8fa;
+}
+
+
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #c9e5fc;
+}
+
+.form-floating.mb-3{
+    width: 42vw;
+    
+}
+
+.p1{
+    text-align: center;
+    font-size: 1em;
+    font-size: 19px;
+}
+
+#g{
+    background-color: #e5eff6;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Identidad{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 20px;
+}
+

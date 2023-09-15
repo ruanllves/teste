@@ -1,0 +1,136 @@
+
+
+body{
+    background-image: url(bg3.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.a{
+    height: 12vh;
+    padding: 20px;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #0094d3;
+}
+
+.carousel-inner, .img-a{
+    height: 55vh;
+    width: 55vw;
+}
+
+.parte1{
+    margin-top: 10px;
+    width: 90vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgba(174, 214, 232, 0.302)
+
+}
+
+.b{
+    width: 90vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgba(174, 214, 232, 0.2);
+}
+
+.i{
+    height: 30vh;
+    border-bottom: 1px solid #25b3f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo{
+    height: 20vh ;
+    width: 20vw;
+    border-radius: 1000px;
+}
+
+h1{
+    font-size: 2rem;
+    font-family: 'PT Serif', serif;
+}
+
+article{
+    font-family: 'PT Serif', serif;
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+
+.i2{
+    height: 30vh;
+    border-bottom: 1px solid #25b3f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c{
+   width: 80vw;
+
+}
+
+.container.text-center{
+    background-color: #25b3f4;
+    color: #ecf8fe;
+}
+
+footer{
+    margin-top: 20px;
+    height: 12vh;
+    width: 100%;
+    color: #0094d3;
+    background-color: #acd8fa;
+}
+
+
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #c9e5fc;
+}
+
+a{
+    text-decoration: none;
+    color: #0094d3;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul:hover a{
+    color: #4B5A5F;
+}
+
+ul:hover a:hover{
+    color: #72C444;
+    box-shadow: 0.2px 0 0 currentColor;
+    
+}
